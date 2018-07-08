@@ -1,3 +1,5 @@
 <?
-is this an error?
+
+phpinfo();
+
 ?>
